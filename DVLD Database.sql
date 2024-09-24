@@ -21,3 +21,7 @@ CREATE TABLE People (
     FOREIGN KEY (NationalityCountryID) REFERENCES Countries(CountryID),
     ImagePath NVARCHAR(250)
 );
+create table Users(UserID int Primary key ,
+PersonID int ,
+foreign key (PersonID) references People(PersonID)
+)
