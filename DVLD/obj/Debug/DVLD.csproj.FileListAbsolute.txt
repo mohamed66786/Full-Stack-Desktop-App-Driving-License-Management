@@ -1,9 +1,0 @@
-D:\Abu Hadhoud courses\Full Real Project\Full-Stack-Desktop-App-Driving-License-Management\DVLD\bin\Debug\DVLD.exe.config
-D:\Abu Hadhoud courses\Full Real Project\Full-Stack-Desktop-App-Driving-License-Management\DVLD\bin\Debug\DVLD.exe
-D:\Abu Hadhoud courses\Full Real Project\Full-Stack-Desktop-App-Driving-License-Management\DVLD\bin\Debug\DVLD.pdb
-D:\Abu Hadhoud courses\Full Real Project\Full-Stack-Desktop-App-Driving-License-Management\DVLD\obj\Debug\DVLD.csproj.AssemblyReference.cache
-D:\Abu Hadhoud courses\Full Real Project\Full-Stack-Desktop-App-Driving-License-Management\DVLD\obj\Debug\DVLD.Properties.Resources.resources
-D:\Abu Hadhoud courses\Full Real Project\Full-Stack-Desktop-App-Driving-License-Management\DVLD\obj\Debug\DVLD.csproj.GenerateResource.cache
-D:\Abu Hadhoud courses\Full Real Project\Full-Stack-Desktop-App-Driving-License-Management\DVLD\obj\Debug\DVLD.csproj.CoreCompileInputs.cache
-D:\Abu Hadhoud courses\Full Real Project\Full-Stack-Desktop-App-Driving-License-Management\DVLD\obj\Debug\DVLD.exe
-D:\Abu Hadhoud courses\Full Real Project\Full-Stack-Desktop-App-Driving-License-Management\DVLD\obj\Debug\DVLD.pdb
