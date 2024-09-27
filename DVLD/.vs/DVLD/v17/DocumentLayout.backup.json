@@ -6,10 +6,13 @@
       "AbsoluteMoniker": "D:0:0:{441EF16E-A9CE-4F60-A3DC-6ACA94C69062}|..\\DVLD_DataAccess\\DVLD_DataAccess.csproj|d:\\abu hadhoud courses\\full real project\\full-stack-desktop-app-driving-license-management\\dvld_dataaccess\\clspersondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{441EF16E-A9CE-4F60-A3DC-6ACA94C69062}|..\\DVLD_DataAccess\\DVLD_DataAccess.csproj|d:\\abu hadhoud courses\\full real project\\full-stack-desktop-app-driving-license-management\\dvld_dataaccess\\clsdataaccesssettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FEDC900C-FC58-4F24-8B03-57ADE32FCB88}|..\\DVLD_Business\\DVLD_Business.csproj|d:\\abu hadhoud courses\\full real project\\full-stack-desktop-app-driving-license-management\\dvld_business\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D9B6DFA-27CC-47F4-96FC-BD696617CE18}|DVLD.csproj|d:\\abu hadhoud courses\\full real project\\full-stack-desktop-app-driving-license-management\\dvld\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4D9B6DFA-27CC-47F4-96FC-BD696617CE18}|DVLD.csproj|D:\\Abu Hadhoud courses\\Full Real Project\\Full-Stack-Desktop-App-Driving-License-Management\\DVLD\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D9B6DFA-27CC-47F4-96FC-BD696617CE18}|DVLD.csproj|solutionrelative:frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -24,8 +27,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsDataAccessSettings.cs",
+              "DocumentMoniker": "D:\\Abu Hadhoud courses\\Full Real Project\\Full-Stack-Desktop-App-Driving-License-Management\\DVLD_DataAccess\\clsDataAccessSettings.cs",
+              "RelativeDocumentMoniker": "..\\DVLD_DataAccess\\clsDataAccessSettings.cs",
+              "ToolTip": "D:\\Abu Hadhoud courses\\Full Real Project\\Full-Stack-Desktop-App-Driving-License-Management\\DVLD_DataAccess\\clsDataAccessSettings.cs",
+              "RelativeToolTip": "..\\DVLD_DataAccess\\clsDataAccessSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T11:53:27.05Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -34,14 +49,14 @@
               "RelativeDocumentMoniker": "..\\DVLD_DataAccess\\clsPersonData.cs",
               "ToolTip": "D:\\Abu Hadhoud courses\\Full Real Project\\Full-Stack-Desktop-App-Driving-License-Management\\DVLD_DataAccess\\clsPersonData.cs",
               "RelativeToolTip": "..\\DVLD_DataAccess\\clsPersonData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAgwG0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T11:49:18.003Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Abu Hadhoud courses\\Full Real Project\\Full-Stack-Desktop-App-Driving-License-Management\\DVLD_Business\\Class1.cs",
               "RelativeDocumentMoniker": "..\\DVLD_Business\\Class1.cs",
@@ -49,12 +64,11 @@
               "RelativeToolTip": "..\\DVLD_Business\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T11:48:42.008Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T11:48:42.008Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "frmMain.Designer.cs",
               "DocumentMoniker": "D:\\Abu Hadhoud courses\\Full Real Project\\Full-Stack-Desktop-App-Driving-License-Management\\DVLD\\frmMain.Designer.cs",
               "RelativeDocumentMoniker": "frmMain.Designer.cs",
@@ -62,12 +76,11 @@
               "RelativeToolTip": "frmMain.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T11:34:40.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T11:34:40.856Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "frmMain.cs [Design]",
               "DocumentMoniker": "D:\\Abu Hadhoud courses\\Full Real Project\\Full-Stack-Desktop-App-Driving-License-Management\\DVLD\\frmMain.cs",
               "RelativeDocumentMoniker": "frmMain.cs",
