@@ -89,7 +89,7 @@ namespace DVLD_DataAccess
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Error: " + ex.Message);
+                //Console.WriteLine("Error: " + ex.Message);
 
                 isFound = false;
             }
@@ -334,7 +334,7 @@ namespace DVLD_DataAccess
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Error: " + ex.Message);
+                //Console.WriteLine("Error: " + ex.Message);
                 return false;
             }
 
@@ -416,7 +416,7 @@ namespace DVLD_DataAccess
                 SqlCommand command = new SqlCommand(query, connection);
 
                 command.Parameters.AddWithValue("@PersonID", PersonID);
-
+                
                 try
                 {
                     connection.Open();
@@ -426,8 +426,8 @@ namespace DVLD_DataAccess
                 }
                 catch (Exception ex)
                 {
-                    // Console.WriteLine("Error: " + ex.Message);
-                }
+                     //Console.WriteLine("Error: " + ex.Message);
+            }
                 finally
                 {
 
@@ -506,5 +506,8 @@ namespace DVLD_DataAccess
 
             return isFound;
         }
+   
+            
+    
     }
 }
