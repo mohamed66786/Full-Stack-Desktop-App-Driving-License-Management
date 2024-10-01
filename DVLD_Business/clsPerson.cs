@@ -57,6 +57,30 @@ namespace DVLD_Business
 
             Mode = enMode.AddNew;
         }
+
+        private clsPerson(int PersonID, string FirstName, string SecondName, string ThirdName,
+           string LastName, string NationalNo, DateTime DateOfBirth, short Gendor,
+            string Address, string Phone, string Email,
+           int NationalityCountryID, string ImagePath)
+
+        {
+            this.PersonID = PersonID;
+            this.FirstName = FirstName;
+            this.SecondName = SecondName;
+            this.ThirdName = ThirdName;
+            this.LastName = LastName;
+            this.NationalNo = NationalNo;
+            this.DateOfBirth = DateOfBirth;
+            this.Gendor = Gendor;
+            this.Address = Address;
+            this.Phone = Phone;
+            this.Email = Email;
+            this.NationalityCountryID = NationalityCountryID;
+            this.ImagePath = ImagePath;
+            this.CountryInfo = clsCountry.Find(NationalityCountryID);
+            Mode = enMode.Update;
+        }
+
         private bool _AddNewPerson()
         {
             //call DataAccess Layer 
@@ -68,6 +92,41 @@ namespace DVLD_Business
                 this.NationalityCountryID, this.ImagePath);
 
             return (this.PersonID != -1);
+        }
+
+        private bool _UpdatePerson()
+        {
+            //call DataAccess Layer 
+
+            return clsPersonData.UpdatePerson(
+                this.PersonID, this.FirstName, this.SecondName, this.ThirdName,
+                this.LastName, this.NationalNo, this.DateOfBirth, this.Gendor,
+                this.Address, this.Phone, this.Email,
+                  this.NationalityCountryID, this.ImagePath);
+        }
+
+        public static clsPerson Find(int PersonID)
+        {
+
+            string FirstName = "", SecondName = "", ThirdName = "", LastName = "", NationalNo = "", Email = "", Phone = "", Address = "", ImagePath = "";
+            DateTime DateOfBirth = DateTime.Now;
+            int NationalityCountryID = -1;
+            short Gendor = 0;
+
+            bool IsFound = clsPersonData.GetPersonInfoByID
+                                (
+                                    PersonID, ref FirstName, ref SecondName,
+                                    ref ThirdName, ref LastName, ref NationalNo, ref DateOfBirth,
+                                    ref Gendor, ref Address, ref Phone, ref Email,
+                                    ref NationalityCountryID, ref ImagePath
+                                );
+
+            if (IsFound)
+                //we return new object of that person with the right data
+                return new clsPerson(PersonID, FirstName, SecondName, ThirdName, LastName,
+                          NationalNo, DateOfBirth, Gendor, Address, Phone, Email, NationalityCountryID, ImagePath);
+            else
+                return null;
         }
     }
 }
