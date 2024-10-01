@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\Abu Hadhoud courses\\Full Real Project\\Full-Stack-Desktop-App-Driving-License-Management\\DVLD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F6BB005-6415-4F05-A108-FBA73EC25B62}|Solution Items{1F6BB005-6415-4F05-A108-FBA73EC25B62}|D:\\Abu Hadhoud courses\\Full Real Project\\Full-Stack-Desktop-App-Driving-License-Management\\DVLD\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{1F6BB005-6415-4F05-A108-FBA73EC25B62}|Solution Items{1F6BB005-6415-4F05-A108-FBA73EC25B62}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FEDC900C-FC58-4F24-8B03-57ADE32FCB88}|..\\DVLD_Business\\DVLD_Business.csproj|d:\\abu hadhoud courses\\full real project\\full-stack-desktop-app-driving-license-management\\dvld_business\\clsperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -37,24 +33,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": ".gitignore",
-              "DocumentMoniker": "D:\\Abu Hadhoud courses\\Full Real Project\\Full-Stack-Desktop-App-Driving-License-Management\\DVLD\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "D:\\Abu Hadhoud courses\\Full Real Project\\Full-Stack-Desktop-App-Driving-License-Management\\DVLD\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
-              "WhenOpened": "2024-10-01T08:33:57.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "clsCountryData.cs",
               "DocumentMoniker": "D:\\Abu Hadhoud courses\\Full Real Project\\Full-Stack-Desktop-App-Driving-License-Management\\DVLD_DataAccess\\clsCountryData.cs",
               "RelativeDocumentMoniker": "..\\DVLD_DataAccess\\clsCountryData.cs",
@@ -66,7 +49,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "clsCountry.cs",
               "DocumentMoniker": "D:\\Abu Hadhoud courses\\Full Real Project\\Full-Stack-Desktop-App-Driving-License-Management\\DVLD_Business\\clsCountry.cs",
               "RelativeDocumentMoniker": "..\\DVLD_Business\\clsCountry.cs",
@@ -78,7 +61,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "clsDataAccessSettings.cs",
               "DocumentMoniker": "D:\\Abu Hadhoud courses\\Full Real Project\\Full-Stack-Desktop-App-Driving-License-Management\\DVLD_DataAccess\\clsDataAccessSettings.cs",
               "RelativeDocumentMoniker": "..\\DVLD_DataAccess\\clsDataAccessSettings.cs",
@@ -90,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "clsPersonData.cs",
               "DocumentMoniker": "D:\\Abu Hadhoud courses\\Full Real Project\\Full-Stack-Desktop-App-Driving-License-Management\\DVLD_DataAccess\\clsPersonData.cs",
               "RelativeDocumentMoniker": "..\\DVLD_DataAccess\\clsPersonData.cs",
@@ -102,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "clsPerson.cs",
               "DocumentMoniker": "D:\\Abu Hadhoud courses\\Full Real Project\\Full-Stack-Desktop-App-Driving-License-Management\\DVLD_Business\\clsPerson.cs",
               "RelativeDocumentMoniker": "..\\DVLD_Business\\clsPerson.cs",
@@ -115,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "frmMain.Designer.cs",
               "DocumentMoniker": "D:\\Abu Hadhoud courses\\Full Real Project\\Full-Stack-Desktop-App-Driving-License-Management\\DVLD\\frmMain.Designer.cs",
               "RelativeDocumentMoniker": "frmMain.Designer.cs",
@@ -127,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "frmMain.cs [Design]",
               "DocumentMoniker": "D:\\Abu Hadhoud courses\\Full Real Project\\Full-Stack-Desktop-App-Driving-License-Management\\DVLD\\frmMain.cs",
               "RelativeDocumentMoniker": "frmMain.cs",
