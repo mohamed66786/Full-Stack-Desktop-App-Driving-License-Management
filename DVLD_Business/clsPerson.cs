@@ -128,5 +128,73 @@ namespace DVLD_Business
             else
                 return null;
         }
+
+        public static clsPerson Find(string NationalNo)
+        {
+            string FirstName = "", SecondName = "", ThirdName = "", LastName = "", Email = "", Phone = "", Address = "", ImagePath = "";
+            DateTime DateOfBirth = DateTime.Now;
+            int PersonID = -1, NationalityCountryID = -1;
+            short Gendor = 0;
+
+            bool IsFound = clsPersonData.GetPersonInfoByNationalNo
+                                (
+                                    NationalNo, ref PersonID, ref FirstName, ref SecondName,
+                                    ref ThirdName, ref LastName, ref DateOfBirth,
+                                    ref Gendor, ref Address, ref Phone, ref Email,
+                                    ref NationalityCountryID, ref ImagePath
+                                );
+
+            if (IsFound)
+
+                return new clsPerson(PersonID, FirstName, SecondName, ThirdName, LastName,
+                          NationalNo, DateOfBirth, Gendor, Address, Phone, Email, NationalityCountryID, ImagePath);
+            else
+                return null;
+        }
+
+        public bool Save()
+        {
+            switch (Mode)
+            {
+                case enMode.AddNew:
+                    if (_AddNewPerson())
+                    {
+
+                        Mode = enMode.Update;
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+
+                case enMode.Update:
+
+                    return _UpdatePerson();
+
+            }
+
+            return false;
+        }
+
+        public static DataTable GetAllPeople()
+        {
+            return clsPersonData.GetAllPeople();
+        }
+
+        public static bool DeletePerson(int ID)
+        {
+            return clsPersonData.DeletePerson(ID);
+        }
+
+        public static bool isPersonExist(int ID)
+        {
+            return clsPersonData.IsPersonExist(ID);
+        }
+
+        public static bool isPersonExist(string NationlNo)
+        {
+            return clsPersonData.IsPersonExist(NationlNo);
+        }
     }
 }
