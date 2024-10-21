@@ -9,7 +9,7 @@ namespace DVLD_Buisness
 
         public int ID { set; get; }
         public string CountryName { set; get; }
-
+   
         public clsCountry()
 
         {
@@ -41,8 +41,8 @@ namespace DVLD_Buisness
         {
 
             int ID = -1;
-
-            if (clsCountryData.GetCountryInfoByName(CountryName, ref ID))
+           
+            if (clsCountryData.GetCountryInfoByName(CountryName, ref ID ))
 
                 return new clsCountry(ID, CountryName);
             else

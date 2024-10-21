@@ -13,52 +13,53 @@ namespace DVLD_DataAccess
         public enum enGendor { Male = 0, Female = 1 };
 
         public static bool GetCountryInfoByID(int ID, ref string CountryName)
-        {
-            bool isFound = false;
-
-            SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString);
-
-            string query = "SELECT * FROM Countries WHERE CountryID = @CountryID";
-
-            SqlCommand command = new SqlCommand(query, connection);
-
-            command.Parameters.AddWithValue("@CountryID", ID);
-
-            try
             {
-                connection.Open();
-                SqlDataReader reader = command.ExecuteReader();
+                bool isFound = false;
 
-                if (reader.Read())
+                SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString);
+
+                string query = "SELECT * FROM Countries WHERE CountryID = @CountryID";
+
+                SqlCommand command = new SqlCommand(query, connection);
+
+                command.Parameters.AddWithValue("@CountryID", ID);
+
+                try
                 {
+                    connection.Open();
+                    SqlDataReader reader = command.ExecuteReader();
 
-                    // The record was found
-                    isFound = true;
+                    if (reader.Read())
+                    {
 
-                    CountryName = (string)reader["CountryName"]; // casting to change the return value to string
+                        // The record was found
+                        isFound = true;
+
+                        CountryName = (string)reader["CountryName"];
+
+                    }
+                    else
+                    {
+                        // The record was not found
+                        isFound = false;
+                    }
+
+                    reader.Close();
+
 
                 }
-                else
+                catch (Exception ex)
                 {
-                    // The record was not found
+                    //Console.WriteLine("Error: " + ex.Message);
                     isFound = false;
                 }
+                finally
+                {
+                    connection.Close();
+                }
 
-                reader.Close();
+                return isFound;
             }
-            catch (Exception ex)
-            {
-                //Console.WriteLine("Error: " + ex.Message);
-                isFound = false;
-            }
-            finally
-            {
-                connection.Close();
-            }
-
-            return isFound;
-        }
-
 
         public static bool GetCountryInfoByName(string CountryName, ref int ID)
         {
@@ -132,6 +133,8 @@ namespace DVLD_DataAccess
                 }
 
                 reader.Close();
+
+
             }
 
             catch (Exception ex)

@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DVLD_DataAccess</RootNamespace>
     <AssemblyName>DVLD_DataAccess</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
@@ -41,9 +41,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="clsCountryData.cs" />
+    <Compile Include="clsDetainedLicense.cs" />
+    <Compile Include="clsDriver.cs" />
+    <Compile Include="clsInternationalLicense.cs" />
+    <Compile Include="clsLicense.cs" />
+    <Compile Include="clsTestAppointment.cs" />
+    <Compile Include="clsTest.cs" />
+    <Compile Include="clsTestType.cs" />
+    <Compile Include="clsLocalDrivingLicenseApplicationData.cs" />
+    <Compile Include="LicenseClass.cs" />
+    <Compile Include="clsApplication.cs" />
+    <Compile Include="ApplicationType.cs" />
     <Compile Include="clsDataAccessSettings.cs" />
+    <Compile Include="clsUserData.cs" />
     <Compile Include="clsPersonData.cs" />
+    <Compile Include="clsCountryData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
